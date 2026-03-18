@@ -36,6 +36,8 @@ dependencies {
 	implementation ("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:4.0.0")
 	implementation("org.springframework.boot:spring-boot-h2console")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	testImplementation("org.junit.jupiter:junit-jupiter")
+	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
 tasks.withType<Test> {
